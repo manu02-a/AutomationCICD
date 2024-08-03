@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T23:10:51 IST" name="Suite" finished-at="2024-07-24T23:11:37 IST" duration-ms="45181">
+    <groups>
+      <group name="ErrorValidation">
+        <method signature="ErrorValidation.incorrectLogin()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" name="incorrectLogin" class="ManuAcademy.ErrorValidation"/>
+      </group> <!-- ErrorValidation -->
+      <group name="parameterization">
+        <method signature="StandAloneTestFormated.SubmitOrder(java.util.HashMap)[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" name="SubmitOrder" class="ManuAcademy.StandAloneTestFormated"/>
+      </group> <!-- parameterization -->
+    </groups>
+    <test started-at="2024-07-24T23:10:51 IST" name="ErrorValidationTest" finished-at="2024-07-24T23:11:30 IST" duration-ms="38363">
+      <class name="ManuAcademy.ErrorValidation">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:10:52 IST" name="LaunchApplication" finished-at="2024-07-24T23:11:05 IST" duration-ms="13700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:05 IST" name="ProductErrorValidation" finished-at="2024-07-24T23:11:12 IST" duration-ms="6645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:12 IST" name="closeWindow" finished-at="2024-07-24T23:11:12 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:12 IST" name="LaunchApplication" finished-at="2024-07-24T23:11:20 IST" duration-ms="7694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method retried="true" signature="incorrectLogin()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:20 IST" name="incorrectLogin" finished-at="2024-07-24T23:11:22 IST" duration-ms="1615" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at ManuAcademy.ErrorValidation.incorrectLogin(ErrorValidation.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLogin -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:22 IST" name="closeWindow" finished-at="2024-07-24T23:11:22 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:22 IST" name="LaunchApplication" finished-at="2024-07-24T23:11:28 IST" duration-ms="6469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="incorrectLogin()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:28 IST" name="incorrectLogin" finished-at="2024-07-24T23:11:29 IST" duration-ms="526" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at ManuAcademy.ErrorValidation.incorrectLogin(ErrorValidation.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLogin -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:ManuAcademy.ErrorValidation@1a760689]" started-at="2024-07-24T23:11:30 IST" name="closeWindow" finished-at="2024-07-24T23:11:30 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- ManuAcademy.ErrorValidation -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2024-07-24T23:10:51 IST" name="submitCartTest" finished-at="2024-07-24T23:11:37 IST" duration-ms="45181">
+      <class name="ManuAcademy.StandAloneTestFormated">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:10:52 IST" name="LaunchApplication" finished-at="2024-07-24T23:11:00 IST" duration-ms="8155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:00 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-24T23:11:12 IST" duration-ms="12703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Manu@selenium1, product=ZARA COAT 3, email=manuselenium@gamil.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:12 IST" name="closeWindow" finished-at="2024-07-24T23:11:15 IST" duration-ms="2415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:15 IST" name="LaunchApplication" finished-at="2024-07-24T23:11:22 IST" duration-ms="7440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:22 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-07-24T23:11:30 IST" duration-ms="7724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Kumar@12, product=ADIDAS ORIGINAL, email=kumar@12gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:30 IST" name="closeWindow" finished-at="2024-07-24T23:11:31 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:31 IST" name="LaunchApplication" finished-at="2024-07-24T23:11:35 IST" duration-ms="4711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="verifyOrderPresent()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:35 IST" name="verifyOrderPresent" finished-at="2024-07-24T23:11:36 IST" depends-on-methods="ManuAcademy.StandAloneTestFormated.SubmitOrder" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderPresent -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:ManuAcademy.StandAloneTestFormated@53941c2f]" started-at="2024-07-24T23:11:36 IST" name="closeWindow" finished-at="2024-07-24T23:11:37 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- ManuAcademy.StandAloneTestFormated -->
+    </test> <!-- submitCartTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+{
+  "Userlogins":  [
+    {
+        "email":"manuselenium@gamil.com",
+        "password":"Manu@selenium1",
+        "product":"ZARA COAT 3"
+
+    },
+    {
+        "email":"kumar@12gmail.com",
+        "password":"Kumar@12",
+        "product":"ADIDAS ORIGINAL"
+
+    }
+    ]
+}
